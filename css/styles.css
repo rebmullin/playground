@@ -191,8 +191,10 @@ button:focus {
 }
 
 .grid__item:last-child {
-  grid-column-start: 4;
-  grid-column-end: 4;
+  -ms-grid-column-start: 4;
+  grid-column-start: 3;
+  -ms-grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
