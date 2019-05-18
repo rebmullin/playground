@@ -92,6 +92,7 @@ button:focus {
 }
 
 .profile-wrapper {
+  padding-top: 80px;
   width: 100%;
   position: relative;
 }
@@ -279,10 +280,6 @@ button:focus,
 
 .page-about .page-header {
   position: relative;
-}
-
-.page-about .profile {
-  padding-top: 100px;
 }
 
 .star {
