@@ -168,6 +168,11 @@ button:focus {
   width: auto;
 }
 
+.grid__item:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grow-column: 2;
+}
+
 .grid__item:nth-child(3) {
   -ms-grid-row: 2;
   -ms-grow-column: 1;
@@ -176,6 +181,11 @@ button:focus {
 .grid__item:nth-child(4) {
   -ms-grid-row: 2;
   -ms-grow-column: 2;
+}
+
+.grid__item:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grow-column: 1;
 }
 
 .grid__item:last-child {
