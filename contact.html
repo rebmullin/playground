@@ -12,7 +12,8 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
-  </head>
+ 
+</head>
 
   <body>
       <header class="page-header">
@@ -41,14 +42,18 @@
       <main class="profile">
         <h1>Contact</h1>
 
-        <form>
+        <form class="contact-form" novalidate>
           <div>
             <label for="name">Name:</label>
-            <input type="text" id="name" required />
+            <div class="input-wrapper">
+              <input type="text" id="name" required />
+            </div>
           </div>
           <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" required />
+            <div class="input-wrapper">
+              <input type="email" id="email" required />
+            </div>
           </div>
           <div>
             <button type="submit">Submit</button>
@@ -110,5 +115,7 @@
           </li>
         </ul>
       </footer>
+
+      <script src="js/scripts.js"></script>
   </body>
 </html>
