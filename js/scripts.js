@@ -1,4 +1,8 @@
 (function() {
+  // let $ = document.querySelector;
+  // let $form2 = $(".contact-form");
+
+  // console.log("REBB form2", $form2);
   const $form = document.querySelector(".contact-form");
   const $emailInput = document.querySelector("#email");
   const $nameInput = document.querySelector("#name");
