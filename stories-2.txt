@@ -1,0 +1,19 @@
+Create a road trip game - either i-spy or find [noun] - pwa app.
+
+stack:
+react
+emotion
+mongoDB (don't actually think this is needed but i would like to play w/ this more)
+JWT (same as above. feel like it's not needed but would like to play w/this more so may integrate)
+
+Stories:
+1. As a developer I want to easily set up a react project base so I can easily working on the app (pwa).
+2. As as user i want a variety of items when I am traveling to keep me distracted.
+3. As a kid or an adult i want to see different levels and categories can be used to keep me interested.
+
+I have interest in trying out PWA (I know this is different than react native:). I would love to see my little app be able to used on a phone. 
+One that looks like a mobile app. if this goes well, I may try it on react-native (the publishing part
+seems very difficult tho and from what I read it could cost some money). I think showing outside a
+project outside of school will be nice to have as part of the portfolio.
+
+
